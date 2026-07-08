@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
     },
     forgotPasswordToken: String,
     forgotPasswordTokenExpiry: Date,
-    verifyToken: String,
+    verifyToken: String, //this is used for verifying the email of real user
     verifyTokenExpiry: Date,
 })
 
